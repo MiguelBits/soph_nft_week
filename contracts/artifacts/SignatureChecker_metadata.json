@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Signature verification helper that can be used instead of `ECDSA.recover` to seamlessly support both ECDSA signatures from externally owned accounts (EOAs) as well as ERC1271 signatures from smart contract wallets like Argent and Safe Wallet (previously Gnosis Safe).",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SentienceCoreModule_flattened.sol": "SignatureChecker"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SentienceCoreModule_flattened.sol": {
+			"keccak256": "0xe51a5e798ae188478b66eb8c319cabcea64f5478f732fbc541ff109e428f2a96",
+			"urls": [
+				"bzz-raw://910a6c67ddfa5dfe04f22f43096a4be12aef64075a9c4e23debfa908489fbdb9",
+				"dweb:/ipfs/QmfP63zempD8gB69Drj5NoH1ecgsCz95zgKfSWtvSbzEuk"
+			]
+		}
+	},
+	"version": 1
+}
